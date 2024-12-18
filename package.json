@@ -1,7 +1,7 @@
 {
-  "name": "starter",
+  "name": "hero-section",
   "version": "0.1.0",
-  "description": "A starter project for Next.js with Tailwind CSS",
+  "description": "A hero section component",
   "private": true,
   "author": "Jade Hernandez",
   "license": "ISC",
@@ -26,6 +26,8 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "^15.0.3",
     "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.7.2"
   },
