@@ -32,11 +32,11 @@ const Button: React.FC<ButtonProps> = ({ variant, children, ...rest }) => {
 const HeroSection: React.FC<HeroSectionProps> = ({ title, description, imageUrl, alt }) => {
   return (
     /* Content */
-    <div className='flex size-full flex-col justify-start rounded bg-gradient-to-b from-[#F9FAFB] to-[#EDF0F3] align-middle shadow-[0_1px_2px_rgba(0,0,0,0.05)] md:rounded-md md:py-2 md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] lg:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)]'>
+    <div className='flex size-full flex-col justify-start rounded bg-gradient-to-b from-[#F9FAFB] to-[#EDF0F3] align-middle shadow-[0_1px_2px_rgba(0,0,0,0.05)] md:rounded-md md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] lg:py-[9px] lg:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)]'>
       {/* Section Hero */}
-      <section className='flex h-fit w-full flex-col py-[104px]'>
+      <section className='flex h-fit w-full flex-col md:py-[91px] lg:py-0'>
         {/* Wrapper */}
-        <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-3 md:gap-8 md:px-4 lg:flex-row lg:px-24'>
+        <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-3 md:gap-8 md:px-4 lg:flex-row lg:p-24'>
           {/* Hero Message */}
           <div className='flex h-fit w-full flex-col justify-start gap-8 align-middle md:gap-16 lg:max-w-[488px]'>
             <div className='flex h-fit w-full flex-col gap-4 md:gap-6'>
