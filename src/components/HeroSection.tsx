@@ -38,7 +38,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, description, imageUrl,
         {/* Wrapper */}
         <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-3 md:gap-8 md:px-4 lg:flex-row lg:px-24'>
           {/* Hero Message */}
-          <div className='flex h-fit w-full max-w-[488px] flex-col justify-start gap-8 align-middle md:gap-16'>
+          <div className='flex h-fit w-full flex-col justify-start gap-8 align-middle md:gap-16 lg:max-w-[488px]'>
             <div className='flex h-fit w-full flex-col gap-4 md:gap-6'>
               <h1 className='md:text-5 h-fit w-full text-4xl font-semibold text-neutral-900 md:text-5xl lg:text-6xl'>
                 {title}
