@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({ variant, children, ...rest }) => {
 const HeroSection: React.FC<HeroSectionProps> = ({ title, description, imageUrl, alt }) => {
   return (
     /* Content */
-    <div className='flex size-full flex-col justify-start rounded bg-gradient-to-b from-[#F9FAFB] to-[#EDF0F3] align-middle shadow-[0_10px_15px_rgba(0,0,0,0.1),0_4px_6px_rgba(0,0,0,0.05)] md:rounded-md md:py-2'>
+    <div className='flex size-full flex-col justify-start rounded bg-gradient-to-b from-[#F9FAFB] to-[#EDF0F3] align-middle shadow-[0_1px_2px_rgba(0,0,0,0.05)] md:rounded-md md:py-2 md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] lg:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)]'>
       {/* Section Hero */}
       <section className='flex h-fit w-full flex-col py-[104px]'>
         {/* Wrapper */}
