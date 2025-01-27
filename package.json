@@ -1,7 +1,7 @@
 {
-  "name": "hero-section",
+  "name": "hero-section-list",
   "version": "0.1.0",
-  "description": "A hero section component",
+  "description": "A hero section component with a bulleted list",
   "private": true,
   "author": "Jade Hernandez",
   "license": "ISC",

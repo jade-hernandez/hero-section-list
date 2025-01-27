@@ -1972,9 +1972,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hero-section@workspace:.":
+"hero-section-list@workspace:.":
   version: 0.0.0-use.local
-  resolution: "hero-section@workspace:."
+  resolution: "hero-section-list@workspace:."
   dependencies:
     "@formkit/auto-animate": "npm:^0.8.2"
     "@types/node": "npm:^20.17.9"
