@@ -40,7 +40,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, bullets, imageUrl, alt
     /* Content */
     <div className='flex size-full flex-col justify-start rounded bg-white align-middle shadow-[0_1px_2px_rgba(0,0,0,0.05)] md:rounded-md md:shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] lg:py-[9px] lg:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)]'>
       {/* Section Hero */}
-      <section className='flex h-fit w-full flex-col py-12 md:py-16 lg:py-0'>
+      <section className='flex h-fit w-full flex-col py-16 lg:py-0'>
         {/* Wrapper */}
         <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-4 md:gap-8 lg:flex-row lg:p-24'>
           {/* Hero Message */}
