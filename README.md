@@ -1,6 +1,6 @@
 # Live site url
 
-[https://hero-section-list-sand.vercel.app/]
+[Live demo](https://hero-section-list.vercel.app/)
 
 ## Starter project
 
