@@ -42,7 +42,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, bullets, imageUrl, alt
       {/* Section Hero */}
       <section className='flex h-fit w-full flex-col py-12 md:py-16 lg:py-0'>
         {/* Wrapper */}
-        <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-3 md:gap-8 md:px-4 lg:flex-row lg:p-24'>
+        <div className='mx-auto flex h-fit w-full max-w-[1440px] flex-col items-center justify-center gap-12 px-4 md:gap-8 lg:flex-row lg:p-24'>
           {/* Hero Message */}
           <div className='flex h-fit w-full flex-col justify-start gap-8 align-middle md:gap-16 lg:max-w-[488px]'>
             <div className='flex h-fit w-full flex-col gap-8 md:gap-16'>
@@ -78,7 +78,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, bullets, imageUrl, alt
             </div>
           </div>
           {/* Hero Image */}
-          <div className='relative h-[264px] w-[319px] rounded-lg md:h-[526px] md:w-[704px] lg:w-[696px]'>
+          <div className='relative h-[264px] w-[311px] rounded-lg md:h-[526px] md:w-[704px] lg:w-[696px]'>
             <Image
               src={imageUrl}
               alt={alt}
